@@ -13,6 +13,7 @@
 		5182C6311EB6676800E6C89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5182C62F1EB6676800E6C89E /* Main.storyboard */; };
 		5182C6331EB6676800E6C89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5182C6321EB6676800E6C89E /* Assets.xcassets */; };
 		5182C6361EB6676800E6C89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5182C6341EB6676800E6C89E /* LaunchScreen.storyboard */; };
+		5182C63E1EB6679E00E6C89E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5182C63D1EB6679E00E6C89E /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5182C6321EB6676800E6C89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5182C6351EB6676800E6C89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5182C6371EB6676800E6C89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5182C63D1EB6679E00E6C89E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5182C63E1EB6679E00E6C89E /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		5182C61A1EB6676800E6C89E = {
 			isa = PBXGroup;
 			children = (
+				5182C63D1EB6679E00E6C89E /* MessageUI.framework */,
 				5182C6251EB6676800E6C89E /* EmailSender */,
 				5182C6241EB6676800E6C89E /* Products */,
 			);
